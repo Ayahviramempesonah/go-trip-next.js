@@ -117,10 +117,10 @@
 export default function Home() {
 
   return (
-    <>
+    < >
       <header className="text-left  text-2xl font-bold   p-4 rounded-lg bg-gradient-to-r from-sky-500 to-indigo-500 shadow-md">GO-TRIP</header>
 
-      <main>
+      <main className="bg-gradient-to-r from-sky-500 to-indigo-500 shadow-md">
 
         <div>
           <h2 className="text-center">Rediscover yourself in Asia and beyond
