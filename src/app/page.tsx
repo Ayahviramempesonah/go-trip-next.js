@@ -115,6 +115,7 @@ import Image from "next/image";
 
 
  import Gambar from "./gambar";
+import React from "react";
 
 export default function Home() {
 
@@ -219,19 +220,38 @@ export default function Home() {
 function Gambar2() {
 
   return (
+    <a 
+    href="http://www.traveloka.com/en-au/hotel/detail/redirect?hotelId=1000000468606&checkInDate=10-11-2024&checkOutDate=11-11-2024&totalRoom=1&totalGuest=1&currency=USD&contexts=%7B%22sourceHotelDetail%22%3A%22EN_promo1%20-%20DESKTOP%22%7D&funnel_source=Merchandising.mainAppHomePage.mainAppHomePage-V2-SSR-web-EN-LandingPage&funnel_id=S_2_5b52f0257d860c2d5c25cbcd760d1cf6f34b6142_0_575ddb1630f48de2aab9d343dfc2f2144a2aebf7&internal_source=true"
+    target="_blank"
+    rel="noopener noreferrer"
+    >
     <img src="https://ik.imagekit.io/tvlk/apr-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10000756-82e87d887de301f4168e945b94db256d.jpeg" alt="beach" />
+ </a>
   )
 }
 
 function Gambar3(){
   return(
+    <a
+    href="https://www.traveloka.com/en-en/destination/region/bali-102746?funnel_source=Merchandising.mainAppHomePage.mainAppHomePage-V2-SSR-web-EN-LandingPage&funnel_id=M_3_37e862400e72981422049e268aee7ba8f0517023_0_7bf9848fef3bc22bbc3123d0f2d141af29316667&internal_source=true"
+    target="_blank"
+    rel="noopener noreferrer"
+   >
     <img src="https://ik.imagekit.io/tvlk/image/imageResource/2023/06/15/1686809673729-a58c108356a01e5a0407277df2586bae.png" alt="bangkok"/>
+  </a>
   )
 }
 
 
 function Gambar4(){
   return(
+    <a
+    href="https://www.traveloka.com/en-en/explore/activities/how-to-reserve-your-visit-date-to-hong-kong-disneyland/427929?funnel_source=Merchandising.mainAppHomePage.mainAppHomePage-V2-SSR-web-EN-LandingPage&funnel_id=S_4_ffbc269555a40ed960669f4b229d835709011339_3_39c403d28341434686fc69c1b691f09a67b78218&internal_source=true"
+    target="_blank"
+    rel="noopener noreferrer"
+
+    >
     <img  src="https://ik.imagekit.io/tvlk/blog/2024/09/shutterstock_2501656733.jpg" alt="baca artikeel"/>
+  </a>
   )
 }
