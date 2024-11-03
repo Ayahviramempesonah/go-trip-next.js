@@ -115,6 +115,7 @@ import Image from "next/image";
 
 
  import Gambar from "./gambar";
+import React from "react";
 
 export default function Home() {
 
